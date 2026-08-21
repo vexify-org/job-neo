@@ -1,0 +1,31 @@
+{
+  "name": "job-neo",
+  "version": "0.1.0",
+  "description": "持久化任务队列：延迟/定时(cron)/重试退避/优先级/多 worker/依赖 DAG，基于 vkv-neo 存储",
+  "main": "index.js",
+  "scripts": {
+    "test": "node test/job-neo.test.js"
+  },
+  "keywords": [
+    "queue",
+    "job",
+    "task",
+    "cron",
+    "schedule",
+    "priority",
+    "retry",
+    "dag",
+    "worker",
+    "persistent",
+    "vkv-neo"
+  ],
+  "author": "job-neo",
+  "license": "Apache-2.0",
+  "type": "commonjs",
+  "engines": {
+    "node": ">=18"
+  },
+  "dependencies": {
+    "vkv-neo": "^1.0.0"
+  }
+}
